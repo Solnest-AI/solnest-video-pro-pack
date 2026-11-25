@@ -1,0 +1,45 @@
+# secrets (this pack needs none, but nothing like this may ever be tracked)
+.env
+.env.*
+!.env.example
+*.token
+tokens.json
+token.json
+credentials/
+keys.env
+cookie.txt
+session.txt
+storage_state.json
+profiles/
+.chrome-profile/
+# what a skill's own setup builds, and the member's work
+node_modules/
+*.mp4
+*.mov
+*.webm
+*.wav
+renders/
+# caches and environments
+.venv/
+venv/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+# os
+.DS_Store
+Thumbs.db
+# updater state and the installed launcher (never part of a release)
+.update-backup/
+.video-pro-pack-files.txt
+.video-pro-pack-skill.txt
+/bin/
+*.update-tmp
+*.setup-tmp
+*.bak*
+# editor and agent rule folders (personal, never part of a release)
+.cursor/
+.vscode/
+.idea/
+AGENTS.md
+GEMINI.md

@@ -1,0 +1,15 @@
+{
+  "kit": "video-pro-pack",
+  "title": "Video Pro Pack",
+  "skills": [
+    "camera-3d-captions",
+    "day-in-my-life",
+    "heygen-avatar",
+    "heygen-translate",
+    "heygen-video",
+    "session-story",
+    "vox-explainer"
+  ],
+  "extras": ["duo", "seedance-cinematic"],
+  "plugin": "hyperframes@hyperframes"
+}
